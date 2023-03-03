@@ -2,53 +2,102 @@
 <html lang="pt">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Rodrigo Matos">
-    <meta name="description" content="Website sobre o Lago do Como">
-    <meta name="keywords" content="palavras chave">
     <title>
-    Lago do Como    
+    Quizz    
     </title>
 </head>
-
-<style>
-h1 {text-align: center;}
-h3 {text-align: center;}
-h4 {text-align: center;}
-div {text-align: center;}
-</style>
-
-<body style="background-color:rgb(156, 152, 152);"text-align:center;>
-<h1>Milão</h1> 
-<h3>Região de Lombardia</h3>
-<h4>(Lago do Como)</h4>
-    <header>
-        <div><img src="images/lagodocomo.jpg" alt="Lago do Como" Style="width:300px;"></div>
-    </header>
-<h2>Lago do Como</h2>
-<p>A melhor região de Milão</p>
-<br>
-<nav>
-
-<p>
-    <ul style="list-style-type:square">
-        <li><b><a href="index.html"> Introdução</a></b></li>
-        <li><b><a href="local.html">Localização</a></b></li>
-        <li><b><a href="multimedia.html">Multimedia</a></b></li>
-        <li><b><a href="info.html">Informação</a></b></li>
-        <li><b><a href="quizz.html">Quizz</a></b></li>
-
-</ul>
-</p>
-</nav>
-<h1>shadhs</h1>
-
-<img src="images/transferir.png" alt="Lago do Como" Style="width:300px;" >
 
 
 <h3>Quizz</h3>
 <p>Nesta página está feito um quizz para ver se conheçe bem o Lago do Como</p>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quizz</title>
+</head>
+
+
+<body>
+	<h1>Quiz sobre o Lago do Como</h1>
+	<main>
+
+	<form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Quizz sobre o Lago do Como
+            </legend>
+		<h2>Pergunta 1:</h2>
+		<p>Qual é o nome da cidade mais famosa do Lago do Como?</p>
+		<label>
+			<input type="radio" name="pergunta1" value="Como">
+			Como
+		</label>
+		<label>
+			<input type="radio" name="pergunta1" value="Bellagio">
+			Bellagio
+		</label>
+		<label>
+			<input type="radio" name="pergunta1" value="Lecco">
+			Lecco
+		</label>
+
+		<h2>Pergunta 2:</h2>
+		<p>Qual é a cor que a bandeira do país do Lago do Como tem, que portugal não tem?</p>
+		<label>
+			<input type="checkbox" name="pergunta2" value="Azul">
+			Azul
+		</label>
+		<label>
+			<input type="checkbox" name="pergunta2" value="Verde">
+			Branco
+		</label>
+		<label>
+			<input type="checkbox" name="pergunta2" value="Transparente">
+			Amarelo
+		</label>
+
+        <label for="pergunta2">  |  Meta aqui a cor-></label>
+        <input type="color" id="pergunta1" name="cor_da_agua">
+
+
+		<h2>Pergunta 3:</h2>
+		<p>Em que ano foi construída a Villa del Balbianello, um dos lugares mais famosos do lago?</p>
+		<input type="date" name="pergunta3" placeholder="DD/MM/AAAA" max="2023-03-01">
+
+		<h2>Pergunta 4:</h2>
+		<p>Qual é o nome do pico mais alto visível a partir do lago?</p>
+		<input type="text" name="pergunta4" placeholder="Digite sua resposta aqui" size="30" maxlength="50">
+
+		<h2>Pergunta 5:</h2>
+		<p>Qual é a temperatura média da água do lago no verão?</p>
+		<input type="range" name="pergunta5" min="10" max="30" step="1" value="20">
+		<span id="rangeValue">20</span> °C
+		
+		<h2>Pergunta 6:</h2>
+		<p>Qual é o nome do maior lago da Itália?</p>
+		<select name="pergunta6" autofocus required>
+			<option value="">Selecione uma opção</option>
+			<option value="Lago de Como">Lago de Como</option>
+			<option value="Lago de Garda">Lago de Garda</option>
+			<option value="Lago Maggiore">Lago Maggiore</option>
+		</select>
+
+        <h2>Pergunta 7:</h2>
+        <label for="pergunta7">Qual o ator conheçido Mundialmente que tem uma casa do lago do Como?</label>
+        <input id="pergunta2" name="fruta" list="opcoes-frutas">
+        <datalist id="opcoes-frutas">
+	        <option value="George Clooney">
+	        <option value="Michael Jordan">
+	        <option value="Tom Cruise">
+	        <option value="Brad Pitt">
+        </datalist>
+
+        <h2>Pergunta 8:</h2>
+        <label for="numero-pessoas">Quantas pessoas vivem no Lago do Como?</label>
+<input type="number" id="numero-pessoas" name="numero_pessoas" min="60000" max="100000" step="1000">
+    </fieldset>
+</main>
+	
 
 </body>
 
-</html>
+<html>
