@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="estilos.css">
       <meta charset="UTF-8">
 
       <title>
@@ -11,54 +9,83 @@
         Tabela de Informações
       </title>
 
+      <style>
+
+footer {
+  text-align: center; 
+  background-color: rgb(156, 152, 152);
+  padding: 20px;
+}
+      </style>
+
 
 
     </head>
 
 
-<body style="background-color: rgb(156, 152, 152);">
+<body>
+  <br>
+    <br>
+    <br>
+    <br>
+
+    <nav>
+      <p>
+          <ul style="list-style-type:square">
+              <li><b><a href="index.html">🏡Home</a></b></li>
+              <li><b><a href="local.html">🗺Localização</a></b></li>
+              <li><b><a href="multimedia.html">📷Multimedia</a></b></li>
+              <li><b><a href="info.html">🔍Informação</a></b></li>
+              <li><b><a href="quizz.html">❔Quizz</a></b></li>
+              <li><b><a href="html5-css.html">📖HTML5-CSS</a></b></li>
+              <li><b><a href="estilos.css">Estilos</a></b></li>
+      
+      </ul>
+      </p>
+      </nav>
 
     <table>
-        <thead>
-          <tr>
-            <th>Informação</th>
-            <th>Descrição</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Localização</td>
-            <td>Lombardia, norte da Itália</td>
-          </tr>
-          <tr>
-            <td>Dimensões</td>
-            <td>
-              Comprimento: 46 km<br>
-              Largura: 4.5 km<br>
-            </td>
-          </tr>
-          <tr>
-            <td>Atividades aquáticas</td>
-            <td>
-              Passeios de barco<br>
-            </td>
-          </tr>
-          <tr>
-            <td>História</td>
-            <td>
-              O Lago de Como é um dos lagos mais antigos da Europa, com uma história que remonta a pelo menos 5 mil anos.<br>
-              O lago tem sido um destino popular para turistas desde a época romana.
-            </td>
-          </tr>
-          <tr>
-            <td>Curiosidades</td>
-            <td>
-              O Lago de Como é famoso pelas suas paisagens e por ser um destino popular entre celebridades.<br>
-              Algumas das personalidades que passaram férias na região são o George Clooney e a Madonna.
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <thead>
+        <tr>
+          <th>Informação</th>
+          <th>Descrição</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Localização</td>
+          <td rowspan="2">Lombardia, norte da Itália</td>
+        </tr>
+        <tr>
+          <td colspan="2">Comprimento: 46 km, Largura: 4.5 km</td>
+        </tr>
+        <tr>
+          <td>Atividades aquáticas</td>
+          <td>Passeios de barco</td>
+        </tr>
+        <tr>
+          <td rowspan="2">História</td>
+          <td>O Lago de Como é um dos lagos mais antigos da Europa, com uma história que remonta a pelo menos 5 mil anos.</td>
+        </tr>
+        <tr>
+          <td>O lago tem sido um destino popular para turistas desde a época romana.</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Curiosidades</td>
+          <td>O Lago de Como é famoso pelas suas paisagens e por ser um destino popular entre celebridades.</td>
+        </tr>
+        <tr>
+          <td>Algumas das personalidades que passaram férias na região são o George Clooney e a Madonna.</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    
+
+
+      <footer>
+        Desenvolvido por <span class="nome">Rodrigo Matos</span>, <span class="numero">a22207059</span>, <span class="universidade">Universidade Lusófona</span>, <span class="ano">2º Ano de Informática de Gestão</span>,
+      </footer>
       
 
 

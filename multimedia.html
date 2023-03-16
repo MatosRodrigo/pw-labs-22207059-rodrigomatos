@@ -1,28 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
     <meta charset="UTF-8">
     <head>
 <title>
     Multimedia
 </title>
 
+<style>
+
+footer {
+  text-align: center; 
+  background-color: rgb(156, 152, 152);
+  padding: 20px;
+}
+h3 {text-align: center;}
+p {text-align: center;}
+iframe {text-align: center;}
+
+div > p {
+  background-color: rgb(197, 234, 239);
+}
+</style>
+
 
     </head>
-<body style="background-color: rgb(156, 152, 152);">
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <nav>
+      <p>
+          <ul style="list-style-type:square">
+              <li><b><a href="index.html">🏡Home</a></b></li>
+              <li><b><a href="local.html">🗺Localização</a></b></li>
+              <li><b><a href="multimedia.html">📷Multimedia</a></b></li>
+              <li><b><a href="info.html">🔍Informação</a></b></li>
+              <li><b><a href="quizz.html">❔Quizz</a></b></li>
+              <li><b><a href="html5-css.html">📖HTML5-CSS</a></b></li>
+              <li><b><a href="estilos.css">Estilos</a></b></li>
+      
+      </ul>
+      </p>
+      </nav>
 
-    <H2>
-        Escolha uma opção:
-    </H2>
-    <label for="Lago do Como">Opções:</label>
-    <select name="tipo">
-        <option value="video">Vídeo</option>
-        <option value="foto">Foto</option>
-        <option value="texto">Texto</option>
-        <option value="comida">Comida</option>
-      </select>
+        <h3>Multimédia</h3> <br>
+        <br>
+        <br>
+        <br>
+
+ <h3 id="fotografias">Fotografias</h3>
+ <iframe id="frame" name="foto" width="600" height="400"></iframe>
+ <p>Clique nas seguintes fotos 😃</p>
+ <p>
+ <a href="images/verao_GRANDE.png" target="foto">
+<img src="images/verao_pequeno.png" alt="Verão">
+</a>
+<a href="images/montanha_GRANDE.png" target="foto">
+<img src="images/montanha_pequena.png" alt="Montanhas">
+</a>
+<a href="images/cidade_grande.png" target="foto">
+<img src="images/cidade_pequena.png" alt="Cidade">
+</a>
+</p>
+<br>
+<h3 id="poema">Poema</h3> 
+<br>
+<p><n>O GUARDA-RIOS</n></p>
+<p>Jorge Sousa Braga</p> <br>
+<div><p><i>É tão díficil guardar um rio</i></p>
+<p><i>quando ele corre</i></p>
+<p><i>dentro de nós</i></p> <br></div>
+
+      <footer>
+        Desenvolvido por <span class="nome">Rodrigo Matos</span>, <span class="numero">a22207059</span>, <span class="universidade">Universidade Lusófona</span>, <span class="ano">2º Ano de Informática de Gestão</span>,
+      </footer>
 </body>
 
 </html>
