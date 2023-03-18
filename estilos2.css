@@ -1,0 +1,124 @@
+*{font-family: 'Raleway', sans-serif;} 
+
+  * {box-sizing: border-box; padding: 0; margin: 0;}
+
+  .janela {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        width: 100vw;
+        height: 50vh;
+        background-color: #534272;
+  }
+
+  .janela p{
+    font-size: large;
+        text-align: center;
+        color: rgb(255, 255, 255);
+
+  }
+
+  .imagem{
+    position: relative;
+    width: 100%;
+    
+  }
+  .palavra{
+    position: absolute;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-size: 24px;
+  padding: 26px;
+  }
+  nav ul {
+    position: absolute;
+    display: flex;
+    top: 0;
+    margin: 0 0;
+    background-color: #736194;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 30px;
+    
+
+}
+
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+a:hover{
+  transition: background-color 2s ease;
+  background-color: rgb(121, 123, 230);
+}
+
+
+.capitais {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.capitais > div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  box-shadow: 5px 5px 15px #736194;
+  border-radius: 20px;
+}
+
+
+.capitais img{
+  border-radius: 20px 0 0 20px;
+  height: 100%;
+}
+
+.capitais div div:last-child{
+  width: 150px;
+  padding: 20px;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #d6cfe2;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.item img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.item p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
+.item .cidade {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.item .cidade p {
+  margin: 0;
+}
